@@ -7,6 +7,7 @@ async function bootstrap() {
 
   const logger = new Logger('Main-Gatwey');
 
+
   const app = await NestFactory.create(AppModule);
 
   app.setGlobalPrefix('api');
